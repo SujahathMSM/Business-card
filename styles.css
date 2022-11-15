@@ -1,0 +1,51 @@
+/*
+Challenge:
+Center the text in the <p> and <h4> elements.
+
+Note: you should only add ONE property, as inheritance 
+should take care of applying it to both elements.
+*/
+
+body {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.avatar {
+    width: 150px;   
+}
+
+.card {
+    
+    width: 400px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* Gonna use margin shorthand */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #f2e8cf;
+    background-color: #0077b6;
+    border-bottom: 10px inset #ffd500;
+
+}
+
+h3 {
+    text-shadow: 2px 2px rgb(0, 55, 255);
+}
+
+img {
+    border-radius: 50%;
+}
+
+p:hover {
+    color: brown;
+}
+
+.nav {
+    border: 1px solid brown;
+    padding: 2px;
+    border-radius: 6%;
+}
